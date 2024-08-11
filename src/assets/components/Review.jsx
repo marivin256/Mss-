@@ -3,6 +3,17 @@ import { useEffect } from "react";
 import { FaStar } from 'react-icons/fa';
 import { FaStarHalf } from 'react-icons/fa';
 import { FaShoppingCart } from 'react-icons/fa'
+//images
+import vwb from "/src/mss/vwb.jpg"
+import vbk from "/src/mss/vbk.jpg"
+import vbg from "/src/mss/vbg.jpg"
+import vb from "/src/mss/vbb.jpg"
+
+import alr from "/src/img/products/alr.jpg"
+import jb from "/src/img/products/jb.jpg"
+import jw from "/src/img/products/jw.jpg"
+import jy from "/src/img/products/jy.jpg"
+
 function Review (){
 useEffect(()=>{
     var MainImg = document.getElementById("MainImg");
@@ -27,20 +38,20 @@ useEffect(()=>{
         <>
         <section id="prodetails" className="section-p1">
     <div className="single-pro-image">
-      <img src="/src/mss/vwb.jpg" width="100%" id="MainImg" alt="" className="mb-2" />
+      <img src={vwb} width="100%" id="MainImg" alt="" className="mb-2" />
 
       <div className="small-img-group ">
         <div className="small-img-col border border-2 p-1 rounded-lg">
-          <img src="/src/mss/vwb.jpg" width="100%" className="small-img rounded-lg" alt="" />
+          <img src={vwb} width="100%" className="small-img rounded-lg" alt="" />
         </div>
         <div className="small-img-col border border-2 p-1 rounded-lg">
-          <img src="/src/mss/vbk.jpg" width="100%" className="small-img rounded-lg" alt="" />
+          <img src={vbk} width="100%" className="small-img rounded-lg" alt="" />
         </div>
         <div className="small-img-col border border-2 p-1 rounded-lg">
-          <img  src="/src/mss/vbg.jpg" width="100%" className="small-img rounded-" alt="" />
+          <img  src={vbg} width="100%" className="small-img rounded-lg" alt="" />
         </div>
-        <div className="small-img-col">
-          <img  src="/src/mss/vb.jpg" width="100%" className="small-img" alt="" />
+        <div className="small-img-col border border-2 p-1 rounded-lg">
+          <img  src={vb} width="100%" className="small-img rounded-lg" alt="" />
         </div>
       </div>
     </div>
@@ -73,9 +84,9 @@ useEffect(()=>{
     <p className="heading"> Collection of New Modern Design</p>
     <div className="pro-container">
       <div className="pro">
-        <img src="/src/img/products/alr.jpg" alt="" />
+        <img src={alr} alt="" />
         <div className="des">
-          <span>H&M</span>
+          <span>ALR</span>
           <h5>Regular </h5>
           <div className="star flex">
 
@@ -87,14 +98,14 @@ useEffect(()=>{
         
            
           </div>
-          <h4>279 UGX</h4>
+          <h4>47,000 UGX</h4>
           <NavLink  to="/#"><FaShoppingCart className="cart"/></NavLink>
         </div>
       </div>
       <div class="pro">
-        <img src="/src/img/products/jb.jpg" alt="" />
+        <img src={jb} alt="" />
         <div class="des">
-          <span>LC WAIKIKI</span>
+          <span>JORDAN 9 BLACK</span>
           <h5>Classic </h5>
           <div class="star flex">
           <FaStar/>
@@ -103,14 +114,14 @@ useEffect(()=>{
             <FaStar/>
             <FaStarHalf/>
           </div>
-          <h4>230 UGX</h4>
+          <h4>150,000 UGX</h4>
           <NavLink  to="/#"><FaShoppingCart className="cart"/></NavLink>
         </div>
       </div>
       <div class="pro">
-        <img src="/src/img/products/jw.jpg" alt="" />
+        <img src={jw} alt="" />
         <div class="des">
-          <span>H&M</span>
+          <span>JORDAN 9 WHITE</span>
           <h5>Regular </h5>
           <div class="star flex">
           <FaStar/>
@@ -119,14 +130,14 @@ useEffect(()=>{
             <FaStar/>
             <FaStarHalf/>
           </div>
-          <h4>350 UGX</h4>
+          <h4>150,000 UGX</h4>
           <NavLink  to="/#"><FaShoppingCart className="cart"/></NavLink>
         </div>
       </div>
       <div class="pro">
-        <img src="/src/img/products/jy.jpg" alt="" />
+        <img src={jy} alt="" />
         <div class="des">
-          <span>POLO</span>
+          <span>JORDAN 9 BLACK AND YELLOW</span>
           <h5>Polo </h5>
           <div class="star flex">
           <FaStar/>
@@ -135,7 +146,7 @@ useEffect(()=>{
             <FaStar/>
             <FaStarHalf/>
           </div>
-          <h4>285 UGX</h4>
+          <h4>150,000 UGX</h4>
           <NavLink  to="/#"><FaShoppingCart className="cart"/></NavLink>
         </div>
       </div>
