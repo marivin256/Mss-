@@ -2,6 +2,23 @@ import { NavLink } from 'react-router-dom';
 import { FaStar } from 'react-icons/fa';
 import { FaStarHalf } from 'react-icons/fa';
 import { FaShoppingCart } from 'react-icons/fa';
+//shoe images
+import f1 from "/src/img/products/f1.jpg"
+import f2 from "/src/img/products/f2.jpg"
+import f3 from "/src/img/products/f3.jpg"
+import f4 from "/src/img/products/f4.jpg"
+import f5 from "/src/img/products/f5.jpg"
+import f6 from "/src/img/products/f6.jpg"
+import f7 from "/src/img/products/f7.jpg"
+import f8 from "/src/img/products/f8.jpg"
+import n1 from "/src/img/products/n1.jpg"
+import n2 from "/src/img/products/n2.jpg"
+import n3 from "/src/img/products/n3.jpg"
+import n4 from "/src/img/products/n4.jpg"
+import n5 from "/src/img/products/n5.jpg"
+import n6 from "/src/img/products/n6.jpg"
+import n7 from "/src/img/products/n7.jpg"
+import n8 from "/src/img/products/n8.jpg"
 
     
     function Porto(){
@@ -15,10 +32,10 @@ import { FaShoppingCart } from 'react-icons/fa';
   </section>
 
  
-  <section id="product1" className="section-p1">
+  <section id="product1" className="section-p1 mr-4">
     <div className="pro-container">
       <div className="pro">
-        <img src="/src/img/products/f1.jpg" alt="" />
+        <img src={f1} alt="" />
         <div className="des">
           <span>Jordan</span>
           <h5>JORDAN 4</h5>
@@ -34,7 +51,7 @@ import { FaShoppingCart } from 'react-icons/fa';
         </div>
       </div>
       <div className="pro">
-        <img src="/src/img/products/f2.jpg" alt="" />
+        <img src={f2} alt="" />
         <div className="des">
           <span>AirForce</span>
           <h5>PRINTED STAR</h5>
@@ -50,7 +67,7 @@ import { FaShoppingCart } from 'react-icons/fa';
         </div>
       </div>
       <div className="pro">
-        <img src="/src/img/products/f3.jpg" alt="" />
+        <img src={f3} alt="" />
         <div className="des">
           <span>aIR</span>
           <h5> GREEN AND WHITE </h5>
@@ -66,7 +83,7 @@ import { FaShoppingCart } from 'react-icons/fa';
         </div>
       </div>
       <div className="pro">
-        <img src="/src/img/products/f4.jpg" alt="" />
+        <img src={f4} alt="" />
         <div className="des">
           <span>....</span>
           <h5>FLORAL....</h5>
@@ -82,7 +99,7 @@ import { FaShoppingCart } from 'react-icons/fa';
         </div>
       </div>
       <div className="pro">
-        <img src="/src/img/products/f5.jpg" alt="" />
+        <img src={f5} alt="" />
         <div className="des">
           <span>AirForce</span>
           <h5>PLAIN WHITE</h5>
@@ -98,7 +115,7 @@ import { FaShoppingCart } from 'react-icons/fa';
         </div>
       </div>
       <div className="pro">
-        <img src="/src/img/products/f6.jpg" alt="" />
+        <img src={f6} alt="" />
         <div className="des">
           <span>AirForce</span>
           <h5>ARMY GREEN & WHITE</h5>
@@ -114,7 +131,7 @@ import { FaShoppingCart } from 'react-icons/fa';
         </div>
       </div>
       <div className="pro">
-        <img src="/src/img/products/f7.jpg" alt="" />
+        <img src={f7} alt="" />
         <div className="des">
           <span>Nike</span>
           <h5>.....</h5>
@@ -130,7 +147,7 @@ import { FaShoppingCart } from 'react-icons/fa';
         </div>
       </div>
       <div className="pro">
-        <img src="/src/img/products/f8.jpg" alt="" />
+        <img src={f8} alt="" />
         <div className="des">
           <span>....</span>
           <h5>..........</h5>
@@ -146,7 +163,7 @@ import { FaShoppingCart } from 'react-icons/fa';
         </div>
       </div>
       <div className="pro">
-        <img src="/src/img/products/n1.jpg" alt="" />
+        <img src={n1} alt="" />
         <div className="des">
           <span>Jordan Nike</span>
           <h5>.....</h5>
@@ -162,7 +179,7 @@ import { FaShoppingCart } from 'react-icons/fa';
         </div>
       </div>
       <div className="pro">
-        <img src="/src/img/products/n2.jpg" alt="" />
+        <img src={n2} alt="" />
         <div className="des">
           <span>LC WAIKIKI</span>
           <h5>....</h5>
@@ -178,7 +195,7 @@ import { FaShoppingCart } from 'react-icons/fa';
         </div>
       </div>
       <div className="pro">
-        <img src="/src/img/products/n3.jpg" alt="" />
+        <img src={n3} alt="" />
         <div className="des">
           <span>H&M</span>
           <h5>....</h5>
@@ -194,7 +211,7 @@ import { FaShoppingCart } from 'react-icons/fa';
         </div>
       </div>
       <div className="pro">
-        <img src="/src/img/products/n4.jpg" alt="" />
+        <img src={n4} alt="" />
         <div className="des">
           <span>Jordan</span>
           <h5>.....</h5>
@@ -210,7 +227,7 @@ import { FaShoppingCart } from 'react-icons/fa';
         </div>
       </div>
       <div className="pro">
-        <img src="/src/img/products/n5.jpg" alt="" />
+        <img src={n5} alt="" />
         <div className="des">
           <span>H&M</span>
           <h5>....</h5>
@@ -226,7 +243,7 @@ import { FaShoppingCart } from 'react-icons/fa';
         </div>
       </div>
       <div className="pro">
-        <img src="/src/img/products/n6.jpg" alt="" />
+        <img src={n6} alt="" />
         <div className="des">
           <span>Jordan 4</span>
           <h5>ARMY GREEN</h5>
@@ -242,7 +259,7 @@ import { FaShoppingCart } from 'react-icons/fa';
         </div>
       </div>
       <div className="pro">
-        <img src="/src/img/products/n7.jpg" alt="" />
+        <img src={n7} alt="" />
         <div className="des">
           <span>LC WIKIKI</span>
           <h5></h5>
@@ -258,7 +275,7 @@ import { FaShoppingCart } from 'react-icons/fa';
         </div>
       </div>
       <div className="pro">
-        <img src="/src/img/products/n8.jpg" alt="" />
+        <img src={n8} alt="" />
         <div className="des">
           <span>Nike</span>
           <h5>.....</h5>

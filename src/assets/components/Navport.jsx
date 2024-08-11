@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import logo from '/src/assets/components/logo.jpg';
+import logo from '/src/mss/logo.jpg';
 
 function Port() {
   const [click, setClick] = useState(false);
@@ -11,7 +11,7 @@ function Port() {
       <nav className="navbar">
         <div className="nav-container">
           <NavLink  to="/" className="nav-logo ">
-          <img className="left-5 w-[50px] absolute md:relative   md:w-[70px] rounded-full border border-2 md:p-1 border-slate-300 " src="/src/mss/logo.jpg" alt="" />
+          <img className="left-5 w-[50px] absolute md:relative   md:w-[70px] rounded-full border border-2 md:p-1 border-slate-300 " src={logo} alt="" />
             
             
           </NavLink>

@@ -2,6 +2,15 @@ import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
+import a6 from "/src/img/about/a6.jpg"
+//features
+import f1 from "/src/img/features/f1.png"
+import f2 from "/src/img/features/f2.png"
+import f3 from "/src/img/features/f3.png"
+import f4 from "/src/img/features/f4.png"
+import f5 from "/src/img/features/f5.png"
+import f6 from "/src/img/features/f6.png"
+
 function About (){
   return(
     <>
@@ -12,7 +21,7 @@ function About (){
   </section>
  
     <section id="about-head" className="section-p1">
-      <img className="rounded-3xl hidden md:block" src="/src/img/about/a6.jpg" alt=""/>
+      <img className="rounded-3xl hidden md:block" src={a6} alt=""/>
       <div>
         <h2>Who We Are?</h2>
         <p>We are MSS  Enterprises Located Kitebi Kampala,we sell all types of shoes for ladies, gentlemen and children, we also deal in outfits and technology
@@ -30,30 +39,30 @@ function About (){
     </section>
    
     <section id="feature" className="section-p1">
-      <div className="fe-box">
-        <img src="src/img/features/f1.png" alt=""/>
-        <h6>Borderless</h6>
-      </div>
-      <div className="fe-box">
-        <img src="src/img/features/f2.png" alt=""/>
-        <h6>Online Order</h6>
-      </div>
-      <div className="fe-box">
-        <img src="src/img/features/f3.png" alt=""/>
-        <h6>Save Money</h6>
-      </div>
-      <div className="fe-box">
-        <img src="src/img/features/f4.png" alt=""/>
-        <h6>Promotions</h6>
-      </div>
-      <div className="fe-box">
-        <img src="src/img/features/f5.png" alt=""/>
-        <h6>xHappy Sell</h6>
-      </div>
-      <div className="fe-box">
-        <img src="src/img/features/f6.png" alt=""/>
-        <h6>F24/7 Support</h6>
-      </div>
+        <div className="fe-box">
+            <img src={f1} alt=""/>
+            <h6>Secure</h6>
+        </div>
+        <div className="fe-box">
+            <img src={f2} alt=""/>
+            <h6>Online Order</h6>
+        </div>
+        <div className="fe-box">
+            <img src={f3} alt=""/>
+            <h6>Save Money</h6>
+        </div>
+        <div className="fe-box">
+            <img src={f4} alt=""/>
+            <h6>Promotions</h6>
+        </div>
+        <div className="fe-box">
+            <img src={f5} alt=""/>
+            <h6>xHappy Sell</h6>
+        </div>
+        <div className="fe-box">
+            <img src={f6} alt=""/>
+            <h6>F24/7 Support</h6>
+        </div>
     </section>
 
     

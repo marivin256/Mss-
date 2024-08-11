@@ -6,7 +6,7 @@ function Contact () {
     return(
         <>
        <section id="page-header" className=" bg-[url('/src/mss/banner.png')]  ">
-        <h2 className="text-white font-bold">#Let's_talk</h2>
+        <h2 className="text-white font-bold">#CONTACT US</h2>
 
         <p className="text-white"> Leave a messege , we love to hear from you! </p>
     </section>

@@ -5,10 +5,36 @@ import { FaStarHalf } from 'react-icons/fa';
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
+import logo from "/src/mss/logo.jpg"
+//feature images
+import f1 from "/src/img/features/f1.png"
+import f2 from "/src/img/features/f2.png"
+import f3 from "/src/img/features/f3.png"
+import f4 from "/src/img/features/f4.png"
+import f5 from "/src/img/features/f5.png"
+import f6 from "/src/img/features/f6.png"
+
+//featured products images
+import vwb from "/src/mss/vwb.jpg"
+import zbb from "/src/mss/zbb.jpg"
+import yjg from "/src/mss/yjg.jpg" 
+import xoo from "/src/mss/xoo.jpg"
+import xnx from "/src/mss/xnx.jpg"
+import xbr from "/src/mss/xbr.jpg"
+import xnf from "/src/mss/xnf.jpg"
+import xbl from "/src/mss/xbl.jpg"
+
+import xbb from "/src/mss/xbb.jpg"
+import xaf from "/src/mss/xaf.jpg"
+import wbb from "/src/mss/wbb.jpg" 
+import sb from "/src/mss/sb.jpg"
+import wb from "/src/mss/wb.jpg"
+import opp from "/src/mss/opp.jpg"
+
 function Body () {
     return(
         <>
-        <section id="hero" className=''>
+        <section id="hero" className="bg-[url('/src/assets/components/top.jpg')]">
         <h1 className='font-bold text-2xl'>MSS SHOE ENTERPRISE</h1>
         <h2 className='text-green-800 '>Super value deals</h2>
         <h1 className='text-5xl'>On all products</h1>
@@ -18,37 +44,37 @@ function Body () {
     
     <section id="feature" className="section-p1">
         <div className="fe-box">
-            <img src="src/img/features/f1.png" alt=""/>
+            <img src={f1} alt=""/>
             <h6>Secure</h6>
         </div>
         <div className="fe-box">
-            <img src="src/img/features/f2.png" alt=""/>
+            <img src={f2} alt=""/>
             <h6>Online Order</h6>
         </div>
         <div className="fe-box">
-            <img src="src/img/features/f3.png" alt=""/>
+            <img src={f3} alt=""/>
             <h6>Save Money</h6>
         </div>
         <div className="fe-box">
-            <img src="src/img/features/f4.png" alt=""/>
+            <img src={f4} alt=""/>
             <h6>Promotions</h6>
         </div>
         <div className="fe-box">
-            <img src="src/img/features/f5.png" alt=""/>
+            <img src={f5} alt=""/>
             <h6>xHappy Sell</h6>
         </div>
         <div className="fe-box">
-            <img src="src/img/features/f6.png" alt=""/>
+            <img src={f6} alt=""/>
             <h6>F24/7 Support</h6>
         </div>
     </section>
     
-    <section id="product1" className="section-p1">
+    <section id="product1" className="section-p1 mr-4">
         <h2 className='text-2xl'>Featured Products</h2>
         <p className="heading">Collection of New Modern Lukizhale Shoe Designs</p>
         <div className="pro-container">
             <div className="pro" >
-                <NavLink to="/review"><img src="/src/mss/vwb.jpg" alt=""/></NavLink>
+                <NavLink to="/review"><img src={vwb} alt=""/></NavLink>
                 <div className="des">
                     <span>Versace</span>
                     <h5>Black and White Print</h5>
@@ -65,7 +91,7 @@ function Body () {
                 </div>
             </div>
             <div className="pro">
-                <img src="/src/mss/zbb.jpg" alt=""/>
+                <img src={zbb} alt=""/>
                 <div className="des">
                     <span>Rostory Child</span>
                     <h5>Plain Brown</h5>
@@ -81,7 +107,7 @@ function Body () {
                 </div>
             </div>
             <div className="pro">
-                <img src="/src/mss/yjg.jpg" alt=""/>
+                <img src={yjg} alt=""/>
                 <div className="des">
                     <span>A533</span>
                     <h5>Plain Brown Jungle</h5>
@@ -97,7 +123,7 @@ function Body () {
                 </div>
             </div>
             <div className="pro">
-                <img src="/src/mss/xoo.jpg" alt=""/>
+                <img src={xoo} alt=""/>
                 <div className="des">
                     <span>Ooiy~</span>
                     <h5>Purple white Green print</h5>
@@ -113,7 +139,7 @@ function Body () {
                 </div>
             </div>
             <div className="pro">
-                <img src="/src/mss/xnx.jpg" alt="" />
+                <img src={xnx} alt="" />
                 <div className="des">
                     <span>Naked Wolfe</span>
                     <h5>Black and Orange</h5>
@@ -129,7 +155,7 @@ function Body () {
                 </div>
             </div>
             <div className="pro">
-                <img src="/src/mss/xbr.jpg" alt=""/>
+                <img src={xbr} alt=""/>
                 <div className="des">
                     <span>H&M</span>
                     <h5>Plain Green</h5>
@@ -145,7 +171,7 @@ function Body () {
                 </div>
             </div>
             <div className="pro">
-                <img src="/src/mss/xnf.jpg" alt=""/>
+                <img src={xnf} alt=""/>
                 <div className="des">
                     <span>Naked Wolfe</span>
                     <h5>Black and Orange</h5>
@@ -161,7 +187,7 @@ function Body () {
                 </div>
             </div>
             <div className="pro">
-                <img src="/src/mss/xbl.jpg" alt=""/>
+                <img src={xbl} alt=""/>
                 <div className="des">
                     <span>BBB</span>
                     <h5>Ocean Blue</h5>
@@ -179,18 +205,18 @@ function Body () {
             </div>
     </section>
     
-    <section id="banner" className="section-m1">
+    <section id="banner" className="section-m1 bg-[url('src/img/banner/b2.jpg')]">
         <h4>Loyal Customer Services</h4>
         <h2>Up to <span>70% off</span> - All Types of shoes</h2>
         <button className="normal rounded-xl">Explore More</button>
     </section>
    
-    <section id="product1" className="section-p1">
+    <section id="product1" className="section-p1 mr-4">
         <h2>New Arrivals</h2>
         <p className="heading "> Collection of New Modern Designs</p>
         <div className="pro-container">
             <div className="pro">
-                <img src="/src/mss/xbb.jpg" alt=""/>
+                <img src={xbb} alt=""/>
                 <div className="des">
                     <span>AirForce</span>
                     <h5>Plain Black</h5>
@@ -205,7 +231,7 @@ function Body () {
                 </div>
             </div>
             <div className="pro">
-                <img src="/src/mss/xaf.jpg" alt=""/>
+                <img src={xaf} alt=""/>
                 <div className="des">
                     <span>AirForce</span>
                     <h5>Plain white</h5>
@@ -220,7 +246,7 @@ function Body () {
                 </div>
             </div>
             <div className="pro">
-                <img src="/src/mss/wbb.jpg" alt=""/>
+                <img src={wbb} alt=""/>
                 <div className="des">
                     <span>H&M</span>
                     <h5>Black and white stripes</h5>
@@ -236,7 +262,7 @@ function Body () {
                 </div>
             </div>
             <div className="pro">
-                <img src="/src/mss/sb.jpg" alt=""/>
+                <img src={sb} alt=""/>
                 <div className="des">
                     <span>SKT</span>
                     <h5>Polo T-Shirt</h5>
@@ -252,7 +278,7 @@ function Body () {
                 </div>
             </div>
             <div className="pro">
-                <img src="/src/mss/wb.jpg" alt=""/>
+                <img src={wb} alt=""/>
                 <div className="des">
                     <span>H&M</span>
                     <h5>Black and White</h5>
@@ -268,7 +294,7 @@ function Body () {
                 </div>
             </div>
             <div className="pro">
-                <img src="/src/mss/opp.jpg" alt=""/>
+                <img src={opp} alt=""/>
                 <div className="des">
                     <span>Push in</span>
                     <h5>Black and REd</h5>
@@ -284,7 +310,7 @@ function Body () {
                 </div>
             </div>
             <div className="pro">
-                <img src="/src/mss/vwb.jpg" alt=""/>
+                <img src={vwb} alt=""/>
                 <div className="des">
                     <span>Versace</span>
                     <h5>Black and white</h5>
@@ -300,7 +326,7 @@ function Body () {
                 </div>
             </div>
             <div className="pro">
-                <img src="/src/mss/xnx.jpg" alt=""/>
+                <img src={xnx} alt=""/>
                 <div className="des">
                     <span>Naked Wolfe</span>
                     <h5>Black and Orange</h5>
@@ -320,7 +346,7 @@ function Body () {
 
     <footer className="section-p1">
       <div className="col">
-        <img src="img/logo.svg" alt="" className="logo" />
+        <img src={logo} alt="" className="logo rounded-xl" />
         <h4>Contact</h4>
         <p><strong>Adress:</strong> Kampala, Uganda.</p>
         <p><strong>Phone:</strong> +256757671763/+256761700498</p>
