@@ -205,7 +205,7 @@ function Body () {
             </div>
     </section>
     
-    <section id="banner" className="section-m1 bg-[url('src/img/banner/b2.jpg')]">
+    <section id="banner" className="section-m1 bg-[url('/src/img/about/banner2.jpg')]">
         <h4>Loyal Customer Services</h4>
         <h2>Up to <span>70% off</span> - All Types of shoes</h2>
         <button className="normal rounded-xl">Explore More</button>
