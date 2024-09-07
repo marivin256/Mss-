@@ -35,7 +35,7 @@ function Body () {
     return(
         <>
         <section id="hero" className="bg-[url('/src/assets/components/top.jpg')]">
-        <h1 className='font-bold text-2xl'>MSS SHOE ENTERPRISE</h1>
+        <h1 className='font-bold text-2xl '>MSS SHOE ENTERPRISE</h1>
         <h2 className='text-green-800 '>Super value deals</h2>
         <h1 className='text-5xl'>On all products</h1>
         <p>Save more the more <span className='text-white'>when you purchase & up to </span><span className='text-red-500'>70% off!</span> </p>
@@ -206,8 +206,8 @@ function Body () {
     </section>
     
     <section id="banner" className="section-m1 bg-[url('/src/img/about/banner2.jpg')]">
-        <h4>Loyal Customer Services</h4>
-        <h2>Up to <span>70% off</span> - All Types of shoes</h2>
+        <h4>Loyal Customer Offer</h4>
+        <h2>Up to <span>20% off</span> - All Types of shoes</h2>
         <button className="normal rounded-xl">Explore More</button>
     </section>
    
@@ -344,7 +344,7 @@ function Body () {
         </div>
     </section>
 
-    <footer className="section-p1">
+    <footer className="section-p1 bg-blue-100 border border-t-1 border-t-black">
       <div className="col">
         <img src={logo} alt="" className="logo rounded-xl" />
         <h4>Contact</h4>

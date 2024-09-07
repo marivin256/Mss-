@@ -34,14 +34,14 @@ function Contact () {
         </div>
         <div className="map">
              <iframe
-                src="https://maps.app.goo.gl/xuj8SPkzwoe3wkcv6"
+                src="https://www.google.com/maps/embed?pb=!3m1!4b1!4m6!3m5!1s0x177dbd30e971d5d1:0xcce5f09d2cf2495e!8m2!3d0.2733322!4d32.5471733!16s%2Fg%2F1q62k_x7z?entry=ttu"
                 width="600" height="450"  allowFullScreen="" loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"></iframe> 
+                referrerPolicy="no-referrer-when-downgrade" ></iframe> 
 
         </div>
     </section>
     
-    <section id="form-details" className="section-p1">
+    <section id="form-details" className="section-p1 bg-blue -50">
         <form 
         action="https://formspree.io/f/xdkngqga"
         method="POST">

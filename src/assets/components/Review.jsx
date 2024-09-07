@@ -36,7 +36,7 @@ useEffect(()=>{
 });
     return(
         <>
-        <section id="prodetails" className="section-p1">
+        <section id="prodetails" className="section-p1 ">
     <div className="single-pro-image">
       <img src={vwb} width="100%" id="MainImg" alt="" className="mb-2" />
 
@@ -56,7 +56,7 @@ useEffect(()=>{
       </div>
     </div>
 
-    <div className="single-pro-details">
+    <div className="single-pro-details ml-8">
       <h6>Versace</h6>
       <h4>Men's Versace</h4>
       <h2>80,000 UGX</h2>
@@ -75,7 +75,7 @@ useEffect(()=>{
       <button className="normal rounded-xl ">Add To cart</button>
       <h4>Product Details</h4>
       <span>
-        Versace in colors,plain black ,black and white and green and black</span>
+        Versace in colors,plain black ,black and white and green and black.</span>
     </div>
   </section>
 
