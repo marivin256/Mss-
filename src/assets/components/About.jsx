@@ -69,7 +69,7 @@ function About (){
     
 
     
-    <footer className="section-p1">
+    <footer className="section-p1 bg-blue-100">
       <div className="col">
         <img src="img/logo.svg" alt="" className="logo" />
         <h4>Contact</h4>

@@ -344,7 +344,7 @@ function Body () {
         </div>
     </section>
 
-    <footer className="section-p1 bg-blue-100 border border-t-1 border-t-black">
+    <footer className="section-p1  bg-blue-100 border border-t-1 border-t-black">
       <div className="col">
         <img src={logo} alt="" className="logo rounded-xl" />
         <h4>Contact</h4>
